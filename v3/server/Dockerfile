@@ -19,6 +19,7 @@ RUN cpan JSON::XS
 RUN cpan Protocol::WebSocket
 RUN cpan Time::Piece
 
+#conf not provided, expected to be provied during deployment
 WORKDIR /app
 COPY . /app
 RUN chmod +x /app/start.sh
