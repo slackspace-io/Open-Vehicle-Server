@@ -22,5 +22,5 @@ jobs:
       - name: Push the Docker image to GitHub Container Registry
         run: |
           docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
-          docker tag ovms-server-v3:latest ghcr.io/slackspace-io/nut-base:latest
+          docker tag ovms-server-v3:latest ghcr.io/slackspace-io/ovms-server-v3:latest
           docker push ghcr.io/slackspace-io/ovms-server-v3:latest
