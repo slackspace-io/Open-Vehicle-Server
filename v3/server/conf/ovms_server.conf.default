@@ -33,6 +33,7 @@ load=<<EOT
 VECE
 DbDBI
 AuthDrupal
+DopeyData
 ApiV2
 Push
 PushAPNS
