@@ -1,4 +1,4 @@
-FROM perl:lastest
+FROM perl:latest
 
 RUN cpan Config::IniFiles
 RUN cpan Digest::MD5
