@@ -6,7 +6,7 @@ RUN cpan Digest::HMAC
 RUN cpan Crypt::RC4::XS
 RUN cpan MIME::Base64
 RUN cpan DBI
-RUN cpan DBD::mariaDB
+RUN cpan DBD::mysql
 RUN cpan EV
 RUN cpan AnyEvent
 RUN cpan AnyEvent::HTTP
