@@ -1,11 +1,12 @@
-FROM perl:5.30.0
+FROM perl:lastest
+
 RUN cpan Config::IniFiles
 RUN cpan Digest::MD5
 RUN cpan Digest::HMAC
 RUN cpan Crypt::RC4::XS
 RUN cpan MIME::Base64
 RUN cpan DBI
-RUN cpan DBD::mysql
+RUN cpan DBD::mariaDB
 RUN cpan EV
 RUN cpan AnyEvent
 RUN cpan AnyEvent::HTTP
