@@ -1,4 +1,4 @@
-FROM perl:latest
+FROM perl:5.30.0
 RUN cpan Config::IniFiles
 RUN cpan Digest::MD5
 RUN cpan Digest::HMAC
